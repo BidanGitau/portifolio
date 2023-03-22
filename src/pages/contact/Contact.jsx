@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./contact.css";
 const Contact = () => {
   return (
-    <div className="contactbackground">
+    <div className="contactbackground" id="contact">
       <Container>
         <div>
           <div className="contactheead">
