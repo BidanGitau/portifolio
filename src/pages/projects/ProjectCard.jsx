@@ -14,7 +14,12 @@ function ProjectCard(props) {
         color: " #8892b0",
       }}
     >
-      <Card.Img variant="top" src={props.imgUrl} alt="card-img" />
+      <Card.Img
+        variant="top"
+        src={props.imgUrl}
+        alt="card-img"
+        loading="lazy"
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
