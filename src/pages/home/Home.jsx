@@ -44,17 +44,20 @@ const Home = () => {
           />
 
           <div class="social-icons">
-            <a href="#" title="github">
+            <a href="https://github.com/BidanGitau/" title="github">
               <FiGithub />
             </a>
-            <a href="#" title="linkedin">
+            <a
+              href="https://www.linkedin.com/in/bidan-gitau-5a1840106/"
+              title="linkedin"
+            >
               <FiLinkedin />
             </a>
 
-            <a href="#" title="twitter">
+            <a href="https://twitter.com/bidan_gitau" title="twitter">
               <FiTwitter />
             </a>
-            <a href="#" title="instagram">
+            <a href="https://twitter.com/bidan_gitau" title="instagram">
               <FiInstagram />
             </a>
           </div>
